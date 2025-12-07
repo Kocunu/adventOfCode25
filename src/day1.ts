@@ -9,7 +9,7 @@ export const content = (path: string): string => {
   }
 }
 
-const data = content("data/day1.txt")
+const data = content("src/data/day1.txt")
 const sliced = data.split('\n');
 const START_DIAL = 50;
 
@@ -79,7 +79,7 @@ function part2(splittedExample: string[]): number {
 
 const resultPart1 = part1(sliced);
 const resultPart2 = part2(sliced);
-console.log(resultPart1);
-console.log(resultPart2);
+//console.log(resultPart1);
+//console.log(resultPart2);
 
   
